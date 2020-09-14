@@ -1,0 +1,140 @@
+
+body
+{
+    background-color:#fafafa !important;
+    font-family: 'Libre Franklin', sans-serif !important;
+}
+header h1
+{
+    letter-spacing:2px;
+}
+.email
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:px;
+}
+.email input
+{
+    width:400px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #c2d3ff;
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+.email button
+{
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: #4f7df3;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+label 
+{
+   margin-right:185px;
+    color:black;
+    font-style: italic;
+    margin-top:5px;
+    font-size:15px;
+    font: bold;
+    font-weight:500;
+    text-align: center;
+}
+.email button:hover
+{
+    background-color: #8f9ec5;
+}
+.dashboard img
+{
+    width: 650px;
+    
+}
+.social
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom:20px;
+   
+}
+.social i
+{
+    color:blueviolet;
+    border: 1.5px solid #edeef1;
+    padding: 3px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:20px;
+    background-color:whitesmoke;
+}
+.social i:hover
+{
+   
+    color: white;
+    border: 1px solid #edeef1;
+    background-color: blueviolet;
+}
+/* media-queries */
+@media (max-width:600px)
+{
+    .email button
+    {
+        margin-top: 20px;
+        width: 400px !important;
+    }
+    #lbl
+    {
+        position: relative;
+        top:10px;
+    }
+    .email button
+    {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:500px)
+{
+    .email button
+    {
+        margin-top: 20px;
+        width: 350px !important;
+    }
+    .email input
+    {
+    width:350px;
+    }
+    header h1
+    {
+        font-size:30px;
+    }
+}
+@media(max-width:400px)
+{
+    .email button
+    {
+        width:290px !important;
+    }
+    .email input
+    {
+    width:290px;
+    }
+    header h1
+    {
+        font-size:27px;
+    }
+    .logo
+    {
+        width: 80px;
+    }
+}
